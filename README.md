@@ -6,6 +6,7 @@ Study notes on the 70-492 certification
 
 # Links
 * [Upgrade your MCPD: Web Developer 4 to MCSD: Web Applications](https://www.microsoft.com/learning/en-us/exam.aspx?id=70-492)
+* [Building Web Apps with ASP.NET Jump Start](http://www.microsoftvirtualacademy.com/training-courses/create-web-apps-with-asp-net?prid=USLeX_MktgDR1A2#?fbid=Ydu36-D4uQu)
 
 
 # Skills Being Measured
