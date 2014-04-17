@@ -10,6 +10,30 @@ Study notes on the 70-492 certification
 * [Developing Windows Azure and Web Services Jump Start](http://www.microsoftvirtualacademy.com/training-courses/developing-windows-azure-and-web-services-jump-start)
 
 
+# Pluralsight
+* Azure
+  * [Windows Azure: The Big Picture (1.5h)](http://pluralsight.com/training/Courses/TableOfContents/azure-bigpicture)
+  * [Applied Windows Azure (5h)](http://pluralsight.com/training/Courses/TableOfContents/applied-windows-azure)
+  * [Fundamentals of Azure Cloud Services and Storage (2h)](http://pluralsight.com/training/Courses/TableOfContents/azure-cloud-services-storage-fundamentals)
+  * [Building Apps with Azure Mobile Svcs, SignalR, MVC, Win 8 and WP8 (2h)](http://pluralsight.com/training/Courses/TableOfContents/building-mobile-applications-azure-signalr-mvc)
+  * [Windows Azure Storage In-Depth (7h)](http://pluralsight.com/training/Courses/TableOfContents/windows-azure-storage-in-depth)
+  * [Windows Azure Service Bus (2)](http://pluralsight.com/training/Courses/TableOfContents/azure-sb)
+  * [Windows Azure Access Control Service (2h)](http://pluralsight.com/training/Courses/TableOfContents/azure-acs)
+  * [Migrating Internet Applications to Azure (2h)](http://pluralsight.com/training/Courses/TableOfContents/migrating-inet-azure)
+* ASP.Net MVC
+  * [Build Your Own Application Framework with ASP.NET MVC 5 (3.5h)](http://pluralsight.com/training/Courses/TableOfContents/build-application-framework-aspdotnet-mvc-5)
+  * [Building ASP.NET MVC Apps with EF Code First, HTML5, and jQuery (5h)](http://pluralsight.com/training/Courses/TableOfContents/web-development)
+  * [Identity and Access Control in ASP.NET 4.5 (3.5h)](http://pluralsight.com/training/Courses/TableOfContents/iac-aspnet)
+  * [Introducing ASP.NET SignalR - Push Services with Hubs (3.5h)](http://pluralsight.com/training/Courses/TableOfContents/signalr-introduction)
+  * [Hack-proofing Your ASP.NET Web Applications (5h)](http://pluralsight.com/training/Courses/TableOfContents/hack-proofing-dotnet-app)
+* Web API
+  * [Introduction to the ASP.NET Web API (3h)](http://pluralsight.com/training/Courses/TableOfContents/aspnetwebapi)
+  * [Web API v2 Security (6h)](http://pluralsight.com/training/Courses/TableOfContents/webapi-v2-security)
+  * [Implementing an API in ASP.NET Web API (6h)](http://pluralsight.com/training/Courses/TableOfContents/implementing-restful-aspdotnet-web-api)
+  * [Building ASP.NET Web API OData Services (4h)](http://pluralsight.com/training/Courses/TableOfContents/aspnetwebapi-odata)
+
+
+
 # Skills Being Measured
 
 ## Design the Application Architecture
