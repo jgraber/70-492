@@ -96,9 +96,15 @@ Study notes on the 70-492 certification
 
 ## Deploying Web Applications and Services
 * Manage packages by using NuGet.
-  * This objective may include but is not limited to: Create and configure a NuGet package; install and update an existing NuGet package; connect to a local repository cache for NuGet, set up your own package repository
+  * Create and configure a NuGet package
+  * install and update an existing NuGet package
+  * connect to a local repository cache for NuGet, set up your own package repository
 * Share assemblies between multiple applications and servers.
-  * This objective may include but is not limited to: Prepare the environment for use of assemblies across multiple servers (interning); sign assemblies by using a strong name; deploy assemblies to the global assembly cache; implement assembly versioning; create an assembly manifest; configure assembly binding redirects (for example, from MVC2 to MVC3 or MVC4)
+  * [Prepare the environment for use of assemblies across multiple servers (interning)](http://blogs.technet.com/b/sateesh-arveti/archive/2011/11/30/look-at-sharing-common-assemblies-in-asp-net-4-5.aspx)
+  * sign assemblies by using a strong name
+  * deploy assemblies to the global assembly cache
+  * implement assembly versioning; create an assembly manifest
+  * configure assembly binding redirects (for example, from MVC2 to MVC3 or MVC4)
 
 
 
