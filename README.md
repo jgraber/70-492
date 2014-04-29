@@ -96,15 +96,17 @@ Study notes on the 70-492 certification
 
 ## Deploying Web Applications and Services
 * Manage packages by using NuGet.
-  * Create and configure a NuGet package
-  * install and update an existing NuGet package
-  * connect to a local repository cache for NuGet, set up your own package repository
+  * [Create and configure a NuGet package](http://docs.nuget.org/docs/creating-packages/creating-and-publishing-a-package)
+  * [install and update an existing NuGet package](http://www.hanselman.com/blog/UpdatingAndPublishingANuGetPackagePlusMakingNuGetPackagesSmarterAndAvoidingSourceEditsWithWebActivator.aspx)
+  * [connect to a local repository cache for NuGet](http://satalketo.com/2013/11/local-nuget-repository/)
+  * [set up your own package repository](http://docs.nuget.org/docs/creating-packages/hosting-your-own-nuget-feeds)
 * Share assemblies between multiple applications and servers.
   * [Prepare the environment for use of assemblies across multiple servers (interning)](http://blogs.technet.com/b/sateesh-arveti/archive/2011/11/30/look-at-sharing-common-assemblies-in-asp-net-4-5.aspx)
-  * sign assemblies by using a strong name
-  * deploy assemblies to the global assembly cache
-  * implement assembly versioning; create an assembly manifest
-  * configure assembly binding redirects (for example, from MVC2 to MVC3 or MVC4)
+  * [sign assemblies by using a strong name](http://msdn.microsoft.com/en-us/library/xc31ft41(v=vs.110).aspx)
+  * [deploy assemblies to the global assembly cache](http://msdn.microsoft.com/en-us/library/dkkx7f79(v=vs.110).aspx)
+  * [implement assembly versioning](http://msdn.microsoft.com/en-us/library/gg608149.aspx)
+  * [create an assembly manifest](http://msdn.microsoft.com/en-us/library/1w45z383(v=vs.110).aspx)
+  * [configure assembly binding redirects (for example, from MVC2 to MVC3 or MVC4)](http://msdn.microsoft.com/en-us/library/vstudio/2fc472t2(v=vs.100).aspx)
 
 
 
