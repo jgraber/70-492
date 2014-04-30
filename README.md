@@ -74,11 +74,19 @@ Study notes on the 70-492 certification
   * This objective may include but is not limited to: Address resources; implement filtering; create a query expression; access payload formats (including JSON); use data service interceptors and service operators
 
 
+
 ## Designing and Implementing WCF Services
 * Implement messaging patterns.
-  * This objective may include but is not limited to: Implement one way, request/reply, streaming, and duplex communication; implement Windows Azure Service Bus and Windows Azure Queues
+  * Implement [one way](http://msdn.microsoft.com/en-us/library/ms733035(v=vs.110).aspx), [request/reply](http://msdn.microsoft.com/en-us/library/ms730913(v=vs.110).aspx), [streaming](http://msdn.microsoft.com/en-us/library/ms789010(v=vs.110).aspx), and [duplex communication](http://msdn.microsoft.com/en-us/library/ms731184(v=vs.110).aspx)
+  * implement [Windows Azure Service Bus](http://blogs.technet.com/b/meamcs/archive/2011/12/23/my-hello-azure-service-bus-wcf-service-step-by-step-guide.aspx) and [Windows Azure Queues](http://azure.microsoft.com/en-us/documentation/articles/storage-dotnet-how-to-use-queues-20/)
 * Host and manage services.
-  * This objective may include but is not limited to: Manage services concurrency (single, multiple, reentrant); Create service hosts; Choose a hosting mechanism; choose an instancing mode (per call, per session, singleton); activate and manage a service by using AppFabric; implement transactional services; host services in an Windows Azure worker role
+  * [Manage services concurrency (single, multiple, reentrant)](http://msdn.microsoft.com/en-us/library/orm-9780596521301-02-08.aspx)
+  * [Create service hosts](http://msdn.microsoft.com/en-us/library/ms730158(v=vs.110).aspx)
+  * [Choose a hosting mechanism](http://msdn.microsoft.com/en-us/library/ms730158(v=vs.110).aspx)
+  * [choose an instancing mode (per call, per session, singleton)](http://www.c-sharpcorner.com/UploadFile/875c4c/instance-modes-in-wcf/)
+  * [activate and manage a service by using AppFabric](http://msdn.microsoft.com/en-us/library/ee677312(v=azure.10).aspx)
+  * [implement transactional services](http://msdn.microsoft.com/en-us/library/ff384250.aspx)
+  * [http://blogs.msdn.com/b/fkaduk/archive/2013/12/09/implementing-rest-service-in-wcf-hosted-workerrole.aspxhost services in an Windows Azure worker role](http://blogs.msdn.com/b/fkaduk/archive/2013/12/09/implementing-rest-service-in-wcf-hosted-workerrole.aspx)
 
 
 ## Deploying Web Applications and Services
