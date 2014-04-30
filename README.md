@@ -86,7 +86,7 @@ Study notes on the 70-492 certification
   * [choose an instancing mode (per call, per session, singleton)](http://www.c-sharpcorner.com/UploadFile/875c4c/instance-modes-in-wcf/)
   * [activate and manage a service by using AppFabric](http://msdn.microsoft.com/en-us/library/ee677312(v=azure.10).aspx)
   * [implement transactional services](http://msdn.microsoft.com/en-us/library/ff384250.aspx)
-  * [http://blogs.msdn.com/b/fkaduk/archive/2013/12/09/implementing-rest-service-in-wcf-hosted-workerrole.aspxhost services in an Windows Azure worker role](http://blogs.msdn.com/b/fkaduk/archive/2013/12/09/implementing-rest-service-in-wcf-hosted-workerrole.aspx)
+  * [host services in an Windows Azure worker role](http://blogs.msdn.com/b/fkaduk/archive/2013/12/09/implementing-rest-service-in-wcf-hosted-workerrole.aspx)
 
 
 ## Deploying Web Applications and Services
