@@ -8,6 +8,7 @@ Study notes on the 70-492 certification
 * [Upgrade your MCPD: Web Developer 4 to MCSD: Web Applications](https://www.microsoft.com/learning/en-us/exam.aspx?id=70-492)
 * [Building Web Apps with ASP.NET Jump Start](http://www.microsoftvirtualacademy.com/training-courses/create-web-apps-with-asp-net?prid=USLeX_MktgDR1A2#?fbid=Ydu36-D4uQu)
 * [Developing Windows Azure and Web Services Jump Start](http://www.microsoftvirtualacademy.com/training-courses/developing-windows-azure-and-web-services-jump-start)
+* [Study notes from @adnanmasood](http://blog.adnanmasood.com/2013/05/20/study-notes-for-70-486-developing-asp-net-mvc-4-web-applications/)
 
 
 # Pluralsight
@@ -37,13 +38,18 @@ Study notes on the 70-492 certification
 # Skills Being Measured
 
 ## Design the Application Architecture
-* Design and implement the Windows Azure role life cycle
-  * This objective may include but is not limited to: identify and implement Start, Run, and Stop events; identify startup tasks (IIS configuration [app pool], registry configuration, third-party tools)
+* Design and implement the [Windows Azure role life cycle](http://msdn.microsoft.com/en-us/library/hh180152.aspx)
+  * [identify and implement Start, Run, and Stop events](http://msdn.microsoft.com/en-us/library/gg456327.aspx)
+  * identify startup tasks ([IIS configuration (app pool)](http://msdn.microsoft.com/en-us/library/gg433059.aspx), [registry configuration](http://blogs.msdn.com/b/sriharsha/archive/2012/08/26/changing-registry-settings-using-a-startup-task-in-azure.aspx), [third-party tools](https://www.simple-talk.com/cloud/platform-as-a-service/installing-third-party-software-on-windows-azure-%E2%80%93-what-are-the-options/))
 
 
 ## Design the User Experience
-* Design and implement UI behavior.
-  * This objective may include but is not limited to: implement client validation; use JavaScript and the DOM to control application behavior; extend objects by using prototypal inheritance; use AJAX to make partial page updates; implement the UI by using JQuery
+* Design and implement UI behavior:
+  * [implement client validation](https://github.com/jgraber/70-480/blob/master/README.md)
+  * [use JavaScript and the DOM to control application behavior](https://github.com/jgraber/70-480/blob/master/README.md)
+  * [extend objects by using prototypal inheritance](https://github.com/jgraber/70-480/blob/master/README.md)
+  * [use AJAX to make partial page updates](https://github.com/jgraber/70-480/blob/master/README.md)
+  * [implement the UI by using JQuery](https://github.com/jgraber/70-480/blob/master/README.md)
  
 
 ## Develop the User Experience
