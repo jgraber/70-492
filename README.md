@@ -10,6 +10,10 @@ Study notes on the 70-492 certification
 * [Developing Windows Azure and Web Services Jump Start](http://www.microsoftvirtualacademy.com/training-courses/developing-windows-azure-and-web-services-jump-start)
 * [Study notes from @adnanmasood](http://blog.adnanmasood.com/2013/05/20/study-notes-for-70-486-developing-asp-net-mvc-4-web-applications/)
 
+# Books
+* [HTML5 and CSS3 (2nd edition)](http://graberj.wordpress.com/2014/03/26/buch-rezension-zu-html5-and-css3-2nd-edition/)
+* [Pro ASP.NET MVC 5](http://www.apress.com/9781430265290)
+
 
 # Pluralsight
 * Azure
