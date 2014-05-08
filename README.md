@@ -58,17 +58,17 @@ Study notes on the 70-492 certification
 
 ## Develop the User Experience
 * Plan and implement globalization and localization.
-  * plan a localization strategy
-  * create and apply resources to UI including JavaScript resources
-  * set cultures
-  * create satellite resource assemblies
+  * [plan a localization strategy](http://programmers.stackexchange.com/questions/98358/effective-strategies-for-localization-in-net)
+  * [create and apply resources to UI including JavaScript resources](http://msdn.microsoft.com/en-us/library/ms227427(v=vs.90).aspx) (and [here](http://msdn.microsoft.com/en-us/library/bb398868(v=vs.90).aspx) and [here](http://www.hanselman.com/blog/GlobalizationInternationalizationAndLocalizationInASPNETMVC3JavaScriptAndJQueryPart1.aspx))
+  * [set cultures](http://msdn.microsoft.com/en-us/library/vstudio/bz9tc508(v=vs.100).aspx)
+  * [create satellite resource assemblies](http://msdn.microsoft.com/en-us/library/vstudio/21a15yht(v=vs.100).aspx)
 * Design and implement MVC controllers and actions.
-  * apply authorization attributes and global filters
-  * implement action behaviors
-  * implement action results
-  * implement model binding
+  * [apply authorization attributes and global filters](http://www.dotnet-tricks.com/Tutorial/mvc/b11a280114-Understanding-ASP.NET-MVC-Filters-and-Attributes.html)
+  * [implement action behaviors](http://www.asp.net/mvc/tutorials/hands-on-labs/aspnet-mvc-4-custom-action-filters)
+  * [implement action results](http://msdn.microsoft.com/en-us/library/system.web.mvc.actionresult(v=vs.118).aspx)
+  * [implement model binding](http://msdn.microsoft.com/en-us/magazine/hh781022.aspx)
 * Control application behavior by using MVC extensibility points.
-  * implement MVC filters and controller factories
+  * [implement MVC filters](http://msdn.microsoft.com/en-us/library/dd381609(v=vs.100).aspx) and [controller factories](http://www.dotnetcurry.com/showarticle.aspx?ID=878)
   * control application behavior by using action results, viewengines, model binders, and route handlers
 * Reduce network bandwidth.
   * bundle and minify scripts (CSS and JavaScript)
