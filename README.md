@@ -69,24 +69,24 @@ Study notes on the 70-492 certification
   * [implement model binding](http://msdn.microsoft.com/en-us/magazine/hh781022.aspx)
 * Control application behavior by using MVC extensibility points.
   * [implement MVC filters](http://msdn.microsoft.com/en-us/library/dd381609(v=vs.100).aspx) and [controller factories](http://www.dotnetcurry.com/showarticle.aspx?ID=878)
-  * control application behavior by using action results, viewengines, model binders, and route handlers
+  * control application behavior by using [action results](http://brendan.enrick.com/post/types-of-aspnet-mvc-3-action-results.aspx), [viewengines](http://channel9.msdn.com/coding4fun/articles/Developer-Review-Four-ASPNET-MVC-View-Engines), [model binders](http://www.codeproject.com/Articles/605595/ASP-NET-MVC-Custom-Model-Binder), and [route handlers](http://weblogs.asp.net/fredriknormen/archive/2007/11/18/asp-net-mvc-framework-create-your-own-iroutehandler.aspx)
 * Reduce network bandwidth.
-  * bundle and minify scripts (CSS and JavaScript)
-  * compress and decompress data (using gzip/deflate; storage)
-  * plan a content delivery network (CDN) strategy, for example, Windows Azure CDN
+  * [bundle and minify scripts (CSS and JavaScript)](http://weblogs.asp.net/scottgu/archive/2011/11/27/new-bundling-and-minification-support-asp-net-4-5-series.aspx) (or [here](http://stackoverflow.com/questions/14816151/asp-net-mvc-bundles-and-minification))
+  * [compress and decompress data (using gzip/deflate; storage)](http://benfoster.io/blog/aspnet-web-api-compression)
+  * [plan a content delivery network (CDN) strategy](http://www.hanselman.com/blog/PennyPinchingVideoMovingMyWebsitesImagesToTheAzureCDNAndUsingACustomDomain.aspx), for example, [Windows Azure CDN](http://msdn.microsoft.com/en-us/library/azure/ff919703.aspx)
 
   
 ## Troubleshoot and Debug Web Applications
 * Debug a Windows Azure application
-  * collect diagnostic information by using Windows Azure Diagnostics API Implement on demand vs. scheduled
-  * choose log types, for example, event logs, performance counters, and crash dumps
-  * debug a Windows Azure application by using IntelliTrace and Remote Desktop Protocol (RDP)
+  * collect diagnostic information by [using Windows Azure Diagnostics API Implement on demand](http://msdn.microsoft.com/en-us/library/gg433048.aspx) vs. [scheduled](http://msdn.microsoft.com/en-us/library/dn186185.aspx)
+  * [choose log types, for example, event logs, performance counters, and crash dumps](http://msdn.microsoft.com/en-us/library/hh694035.aspx)
+  * debug a Windows Azure application by using [IntelliTrace](http://msdn.microsoft.com/en-us/library/ff683671.aspx) and [Remote Desktop Protocol (RDP)](http://antirandom.com/2012/09/20/remotely-debugging-a-windows-azure-webrole-via-visual-studio-debugger/)
 
 
 ## Design and Implement Security
 * Design and implement claims-based authentication across federated identity stores.
-  * implement federated authentication by using Windows Azure Access Control Service
-  * create a custom security token by using Windows Identity Foundation
+  * [implement federated authentication by using Windows Azure Access Control Service](http://msdn.microsoft.com/en-us/library/hh446535.aspx)
+  * [create a custom security token by using Windows Identity Foundation](http://blogs.msdn.com/b/mcsuksoldev/archive/2011/03/25/write-a-custom-security-token-and-handler-in-windows-identity-foundation.aspx)
   * handle token formats (for example, oAuth, OpenID, LiveID, and Facebook) for SAML and SWT tokens
 
 
