@@ -128,7 +128,7 @@ Study notes on the 70-492 certification
   * choose appropriate format (Web API formats) for responses to meet requirements
   * plan when to make HTTP actions asynchronous
 * Implement a Web API.
-  * accept data in JSON format (in JavaScript, in an AJAX callback)
+  * [accept data in JSON format](http://stackoverflow.com/questions/20226169/how-to-pass-json-post-data-to-web-api-method-as-object) (in JavaScript, in an AJAX callback)
   * use content negotiation to deliver different data formats to clients
   * define actions and parameters to handle data binding
   * use HttpMessageHandler to process client requests and server responses
