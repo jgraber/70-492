@@ -87,7 +87,7 @@ Study notes on the 70-492 certification
 * Design and implement claims-based authentication across federated identity stores.
   * [implement federated authentication by using Windows Azure Access Control Service](http://msdn.microsoft.com/en-us/library/hh446535.aspx)
   * [create a custom security token by using Windows Identity Foundation](http://blogs.msdn.com/b/mcsuksoldev/archive/2011/03/25/write-a-custom-security-token-and-handler-in-windows-identity-foundation.aspx)
-  * handle token formats (for example, oAuth, OpenID, LiveID, and Facebook) for SAML and SWT tokens
+  * handle token formats (for example, [oAuth, OpenID](http://blogs.msdn.com/b/webdev/archive/2012/08/15/oauth-openid-support-for-webforms-mvc-and-webpages.aspx), [LiveID, and Facebook](http://msdn.microsoft.com/en-us/library/gg185967.aspx)) for [SAML](http://msdn.microsoft.com/en-us/library/ms733083(v=vs.110).aspx) and [SWT tokens](http://msdn.microsoft.com/en-us/library/hh781551.aspx)
 
 
 ## Accessing Data
