@@ -92,17 +92,17 @@ Study notes on the 70-492 certification
 
 ## Accessing Data
 * Implement data storage in Windows Azure.
-  * access data storage in Windows Azure
-  * Choose data storage mechanism in Windows Azure (blobs, tables, queues, SQL Database)
-  * Distribute data by using the Content delivery network (CDN)
-  * Handle exceptions by using retries (SQL Database)
-  * manage Windows Azure Caching
-* Create and configure a WCF service on Windows Azure.
-  * Address resources
-  * implement filtering
-  * create a query expression
-  * access payload formats (including JSON)
-  * use data service interceptors and service operators
+  * [access data storage in Windows Azure](http://msdn.microsoft.com/en-us/library/ee405490.aspx)
+  * [Choose data storage mechanism in Windows Azure (blobs, tables, queues, SQL Database)](http://azure.microsoft.com/en-us/documentation/articles/storage-introduction/)
+  * [Distribute data by using the Content delivery network (CDN)](http://azure.microsoft.com/en-us/documentation/articles/cdn-how-to-use/)
+  * [Handle exceptions by using retries (SQL Database)](http://www.asp.net/aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/transient-fault-handling)
+  * [manage Windows Azure Caching](http://azure.microsoft.com/en-us/services/cache/)
+* [Create and configure a WCF service on Windows Azure](http://www.claudiobernasconi.ch/2013/08/03/deploying-a-wcf-service-on-windows-azure/):
+  * [Address resources](http://blogs.msdn.com/b/nishasingh/archive/2012/12/05/creating-and-deploying-a-wcf-service-on-windows-azure-and-consuming-it-in-windows-8-store-app.aspx)
+  * [implement filtering](http://msdn.microsoft.com/en-us/library/ms731081(v=vs.110).aspx)
+  * [create a query expression](http://msdn.microsoft.com/en-us/library/dd673933(v=vs.110).aspx)
+  * [access payload formats (including JSON)](http://msdn.microsoft.com/en-us/library/dd728282(v=vs.110).aspx)
+  * [use data service interceptors](http://msdn.microsoft.com/en-us/library/dd744842(v=vs.110).aspx) and [service operators](http://msdn.microsoft.com/en-us/library/cc668788(v=vs.110).aspx)
 
 
 
@@ -122,35 +122,35 @@ Study notes on the 70-492 certification
 
 ## Deploying Web Applications and Services
 * Design a Web API.
-  * define HTTP resources with HTTP actions
-  * plan appropriate URI space, and map URI space using routing
-  * choose appropriate HTTP method (get, put, post, delete) to meet requirements
-  * choose appropriate format (Web API formats) for responses to meet requirements
-  * plan when to make HTTP actions asynchronous
+  * [define HTTP resources with HTTP actions](http://bitoftech.net/2013/11/25/implement-http-actions-post-put-delete-web-api/)
+  * [plan appropriate URI space, and map URI space using routing](http://blog.2partsmagic.com/restful-uri-design/)
+  * [choose appropriate HTTP method (get, put, post, delete) to meet requirements](http://stackoverflow.com/questions/6203231/which-http-methods-match-up-to-which-crud-methods)
+  * [choose appropriate format (Web API formats) for responses to meet requirements](http://www.asp.net/web-api/overview/formats-and-model-binding/media-formatters)
+  * [plan when to make HTTP actions asynchronous](http://www.dotnetcurry.com/showarticle.aspx?ID=948)
 * Implement a Web API.
   * [accept data in JSON format](http://stackoverflow.com/questions/20226169/how-to-pass-json-post-data-to-web-api-method-as-object) (in JavaScript, in an AJAX callback)
-  * use content negotiation to deliver different data formats to clients
-  * define actions and parameters to handle data binding
-  * use HttpMessageHandler to process client requests and server responses
-  * implement dependency injection, along with the dependency resolver, to create more flexible applications
-  * implement action filters and exception filters to manage controller execution
-  * implement asynchronous and synchronous actions
-  * implement streaming actions
+  * [use content negotiation to deliver different data formats to clients](http://www.asp.net/web-api/overview/formats-and-model-binding/content-negotiation)
+  * [define actions and parameters to handle data binding](http://www.asp.net/web-api/overview/formats-and-model-binding/parameter-binding-in-aspnet-web-api)
+  * [use HttpMessageHandler to process client requests and server responses](http://www.asp.net/web-api/overview/working-with-http/http-message-handlers)
+  * [implement dependency injection, along with the dependency resolver, to create more flexible applications](http://www.asp.net/web-api/overview/extensibility/using-the-web-api-dependency-resolver)
+  * [implement action filters](http://damienbod.wordpress.com/2014/01/04/web-api-2-using-actionfilterattribute-overrideactionfiltersattribute-and-ioc-injection/) and [exception filters](http://www.asp.net/web-api/overview/web-api-routing-and-actions/exception-handling#exception_filters) to manage controller execution
+  * [implement asynchronous and synchronous actions](http://www.c-sharpcorner.com/UploadFile/2b481f/create-asynchronous-action-method-in-web-api/)
+  * [implement streaming actions](http://www.strathweb.com/2013/01/asynchronously-streaming-video-with-asp-net-web-api/)
 * Secure a Web API.
-  * implement HTTPBasic authentication over SSL
-  * implement Windows Auth
-  * enable cross-domain requests
-  * prevent cross-site request forgery (XSRF)
-  * implement, and extend, authorization filters to control access to the application
+  * [implement HTTPBasic authentication over SSL](http://www.asp.net/web-api/overview/security/basic-authentication)
+  * [implement Windows Auth](http://www.asp.net/web-api/overview/security/integrated-windows-authentication)
+  * [enable cross-domain requests](http://www.asp.net/web-api/overview/security/enabling-cross-origin-requests-in-web-api)
+  * [prevent cross-site request forgery (XSRF)](http://www.asp.net/web-api/overview/security/preventing-cross-site-request-forgery-(csrf)-attacks)
+  * [implement, and extend, authorization filters to control access to the application](http://www.asp.net/web-api/overview/security/authentication-and-authorization-in-aspnet-web-api)
 * Host and manage Web API.
-  * host Web API in an ASP.NET app
-  * self-host a Web API in your own process (a Windows service)
-  * host services in a Windows Azure worker role
-  * restricting message size
-  * configure the host server for streaming
+  * [host Web API in an ASP.NET app](http://odetocode.com/blogs/scott/archive/2013/07/01/on-the-coexistence-of-asp-net-mvc-and-webapi.aspx)
+  * [self-host a Web API in your own process (a Windows service)](http://www.asp.net/web-api/overview/hosting-aspnet-web-api/self-host-a-web-api)
+  * [host services in a Windows Azure worker role](http://www.asp.net/web-api/overview/hosting-aspnet-web-api/host-aspnet-web-api-in-an-azure-worker-role)
+  * [restricting message size](http://www.strathweb.com/2012/09/dealing-with-large-files-in-asp-net-web-api/)
+  * [configure the host server for streaming](http://www.strathweb.com/2012/09/dealing-with-large-files-in-asp-net-web-api/)
 * Consume Web API web services.
-  * consume Web API services by using HttpClient synchronously and asynchronously
-  * send and receive requests in different formats (JSON/HTML/etc.)
+  * [consume Web API services by using HttpClient synchronously and asynchronously](http://www.asp.net/web-api/overview/web-api-clients/calling-a-web-api-from-a-net-client)
+  * [send and receive requests in different formats (JSON/HTML/etc.)](http://www.asp.net/web-api/overview/web-api-clients/calling-a-web-api-from-a-net-client)
 
 
 ## Deploying Web Applications and Services
