@@ -9,6 +9,7 @@ using System.Web.Http.Description;
 
 namespace Authenticated.Controllers
 {
+    [Authorize]
     public class BooksController : ApiController
     {
         private static List<Book> books = new List<Book>();

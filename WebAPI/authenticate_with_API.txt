@@ -1,0 +1,39 @@
+Details: http://www.asp.net/web-api/overview/security/individual-accounts-in-web-api
+
+
+1. Step: Register
+HEADER:
+Accept  :  application/json
+Content-Type  :  text/json
+
+POST: api/Account/Register
+{
+"UserName":"JG",
+"Password":"123456",
+"ConfirmPassword":"123456"
+}
+
+
+2. Step: Get Token
+
+POST: http://localhost:51715/Token
+
+grant_type=password&username=JG&password=123456
+
+Returns:
+{
+    "access_token": "JaIFknA3i1iwH6toPSyBia6JmXRTmlKg0OjOYk9wGwgrYfwQB52XKtRPy3uxha93mfKuM2q1Kp9UDoz_abR9djYNGMVYL1OSdKDO0WpJI9_xDGrPnkyOocjM0QbhFLTDDjNOpVSFmaHDBArakAajah_pyhtVuo1Ju_CMe2vCMBPNaC8cW6IY38S6tX0aoeReHJfDNzLpDXB4FmBHvHSn2bmYQ5Yhn_q9keoEEkpY1FbXOjFT1uJfYfWfjU255RaZd23zDACIK0JP3AETmaZdykdzfCFqXmX3b4OXnttfUWlOmD_6lMamBGN_UskJq1vk-8Ul1IwpVT1QnrvKLmzpiugafKS46wJTDn7XXncttXHx9i0IYJ6IE3tF3MsCe5KpBI0QD_iib3Z8xMdeoeuPt5RBrU4npFKvC-yrvvsw8Og",
+    "token_type": "bearer",
+    "expires_in": 1209599,
+    "userName": "JG",
+    ".issued": "Sun, 18 May 2014 15:21:15 GMT",
+    ".expires": "Sun, 01 Jun 2014 15:21:15 GMT"
+}
+
+
+3. Step: Use Token for API calls
+
+Additonal Header:
+Authorization  :  bearer JaIFknA3i1iwH6toPSyBia6JmXRTmlKg0OjOYk9wGwgrYfwQB52XKtRPy3uxha93mfKuM2q1Kp9UDoz_abR9djYNGMVYL1OSdKDO0WpJI9_xDGrPnkyOocjM0QbhFLTDDjNOpVSFmaHDBArakAajah_pyhtVuo1Ju_CMe2vCMBPNaC8cW6IY38S6tX0aoeReHJfDNzLpDXB4FmBHvHSn2bmYQ5Yhn_q9keoEEkpY1FbXOjFT1uJfYfWfjU255RaZd23zDACIK0JP3AETmaZdykdzfCFqXmX3b4OXnttfUWlOmD_6lMamBGN_UskJq1vk-8Ul1IwpVT1QnrvKLmzpiugafKS46wJTDn7XXncttXHx9i0IYJ6IE3tF3MsCe5KpBI0QD_iib3Z8xMdeoeuPt5RBrU4npFKvC-yrvvsw8Og
+
+GET: /api/Books
