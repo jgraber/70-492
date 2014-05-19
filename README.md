@@ -10,6 +10,7 @@ Study notes on the 70-492 certification
 * [Developing Windows Azure and Web Services Jump Start](http://www.microsoftvirtualacademy.com/training-courses/developing-windows-azure-and-web-services-jump-start)
 * [Study notes from @adnanmasood](http://blog.adnanmasood.com/2013/05/20/study-notes-for-70-486-developing-asp-net-mvc-4-web-applications/)
 * [Choosing a Message Exchange Pattern](http://msdn.microsoft.com/en-us/library/aa751829(v=vs.110).aspx)
+* [Difference between BasicHttpBinding and WsHttpBinding](http://www.codeproject.com/Articles/36396/Difference-between-BasicHttpBinding-and-WsHttpBind)
 
 # Books
 * [HTML5 and CSS3 (2nd edition)](http://graberj.wordpress.com/2014/03/26/buch-rezension-zu-html5-and-css3-2nd-edition/)
